@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/white"
+        android:id="@+id/relativeLayout2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:textSize="20dip"
+            android:textStyle="italic"
+            android:id="@+id/title"
+            android:textColor="@color/material_blue_grey_800"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="   Choose Date   "
+            android:background="@color/blueb"
+            android:textColor="@color/white"
+            android:id="@+id/DateText"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="260dip"
+            android:layout_height="260dip"
+            android:layout_below="@+id/DateText"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Choose Time"
+            android:background="@color/blueb"
+            android:textColor="@color/white"
+            android:id="@+id/timingText"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+        <RadioGroup
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_below="@+id/timingText"
+            android:layout_above="@+id/appointment"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/radioGroup">
+
+
+            <RadioButton
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blueb"
+                android:text="6:00P.M. - 6:30P.M."
+                android:id="@+id/radioButton"
+                android:onClick="onRadioButtonClick"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blueb"
+                android:text="6:30P.M. - 7:00P.M."
+                android:id="@+id/radioButton2"
+                android:onClick="onRadioButtonClick"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blueb"
+                android:text="7:30P.M. - 8:00P.M."
+                android:id="@+id/radioButton3"
+                android:onClick="onRadioButtonClick"/>
+
+        </RadioGroup>
+        <ImageButton
+            android:id="@+id/appointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="200dp"
+            android:maxHeight="70dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/appointment2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

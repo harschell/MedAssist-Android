@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fa6a6a"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:text="1.Doctor started the appointment on time."
+        android:id="@+id/q1"
+        android:textStyle="normal"
+        android:textSize="15dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/array_rating"
+        android:layout_alignBottom="@+id/q1"
+        android:layout_toRightOf="@+id/q1"
+        android:layout_toEndOf="@+id/q1" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:text="2.Doctor heard you well enough."
+        android:id="@+id/q2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/q1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/array_rating"
+        android:layout_alignTop="@+id/q2"
+        android:layout_alignBottom="@+id/q2"
+        android:layout_toRightOf="@+id/q2"
+        android:layout_toEndOf="@+id/q2" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="3.Doctor gave enough time to you during appointment."
+        android:id="@+id/q3"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/q2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/array_rating"
+        android:layout_alignTop="@+id/q3"
+        android:layout_alignBottom="@+id/q3"
+        android:layout_toRightOf="@+id/q3"
+        android:layout_toEndOf="@+id/q3" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="4.Medicines prescribed by the doctor worked well."
+        android:id="@+id/q4"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/q3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/array_rating"
+        android:layout_alignBottom="@+id/q4"
+        android:layout_toRightOf="@+id/q4"
+        android:layout_toEndOf="@+id/q4" />
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="5.Your Overall experience was good."
+        android:id="@+id/q5"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/q4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner5"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/array_rating"
+        android:layout_alignBottom="@+id/q5"
+        android:layout_toRightOf="@+id/q5"
+        android:layout_toEndOf="@+id/q5" />
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:text="Legend:\n0-Completely Disagree\n1-Disagree\n2-Satisfactory\n3-Agree\n4-Strongly Agree"
+        android:id="@+id/legend"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

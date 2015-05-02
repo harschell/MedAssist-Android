@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:weightSum="1">
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="8dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/greenb">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/title"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/speciality"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/address"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/speciality"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/rating"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/address"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium Text"
+            android:textColor="#ffffff"
+            android:id="@+id/phoneNum"
+            android:layout_below="@+id/rating"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium Text"
+            android:textColor="#ffffff"
+            android:id="@+id/consultation"
+            android:layout_below="@+id/phoneNum"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp" />
+
+        <ImageButton
+            android:id="@+id/appointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="250dp"
+            android:maxHeight="70dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/appointment2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

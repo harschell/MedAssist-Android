@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MedAssist</string>
+    <string name="hint_email">Email ID</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_doc">Are you a Doctor?</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Existing User?       Login Me in!</string>
+    <string name="RegisterAsDoc">Register As Doc?</string>
+    <string name="RegisterAsUser">Register As User?</string>
+    <string name="welcome">Find your Doctor..</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Full Name</string>
+    <string name="hint_mobNum">10 digit valid Mobile Number</string>
+    <string name="hint_address">Enter your Consultation Address</string>
+    <string name="hint_fee">Enter your Consultation Fee</string>
+    <string name="hint_timing">Consultation Timing</string>
+    <string name="browse">Browse Doctors</string>
+    <string name="pres">Check Old Prescriptions</string>
+    <string name="action_settings">Settings</string>
+    <string name="presPrompt">Select a Past Appointment</string>
+    <!-- App and Activities -->
+    <string name="title_activity_view_image">View image</string>
+    <string name="title_activity_chat">Prescription</string>
+    <string name="title_activity_record_audio">Record audio</string>
+    <string name="title_activity_play_video">Play video</string>
+    <string name="title_activity_file_picker">File chooser</string>
+    <string name="title_activity_web_view">Open link....</string>
+    <string name="title_activity_drawing">Draw</string>
+
+    <!-- Menus -->
+    <string name="disconnect">Disconnect</string>
+    <string name="send_image">Send image</string>
+    <string name="download_image">Download image</string>
+    <string name="send_audio">Send audio message</string>
+    <string name="send_video">Send video message</string>
+    <string name="send_file">Send file</string>
+    <string name="send_drawing">Send drawing</string>
+
+    <!-- Popup menus -->
+    <string name="pick_image">Pick image</string>
+    <string name="take_photo">Take photo</string>
+
+    <!-- Buttons -->
+    <string name="go_to_settings_button">Go to Settings</string>
+    <string name="send_button">Fill up a prescription for the patient</string>
+    <string name="back_button">Back</string>
+    <string name="record_button">Start recording</string>
+    <string name="playback_button">Play</string>
+    <string name="stop_recording_button">Stop recording</string>
+    <string name="ok">OK</string>
+
+    <!-- TextView -->
+    <string name="go_to_settings_text">Click the image above to go to Settings and connect your device to others by Wifi-Direct</string>
+
+    <!-- EditTexts -->
+    <string name="set_chat_name">Please choose your chat name</string>
+    <string name="enter_text">Enter your message here</string>
+
+    <!-- Descriptions -->
+    <string name="full_screen_image">Full screen image</string>
+    <string name="file_icon">File icon</string>
+    <string name="paint">Choose a color</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+    <!-- Drawing buttons -->
+    <string name="new_drawing">New</string>
+    <string name="brush">Brush</string>
+    <string name="eraser">Eraser</string>
+    <string name="save_and_send">Save and Send</string>
+    <string name="startAppointment">Start a new Appointment</string>
+    <string name="checkAppointments">View All Appointments</string>
+    <string name="checkPres">View Prescriptions</string>
+
+    <string-array name="array_rating">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
